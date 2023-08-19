@@ -7,6 +7,7 @@
 
 body{
 	background:linear-gradient(-90deg,#0048ce,#008bfd); 
+	height: 100%;
 	}
 
 #a1{
@@ -107,3 +108,12 @@ input{
 	/* color: #1c1e21; */
 }
 
+footer {
+	position: absolute;
+	right: 0;bottom:0;left:0;
+  }
+
+#f2{
+	font-size: 30px;
+	color: #1c1e21;
+}
