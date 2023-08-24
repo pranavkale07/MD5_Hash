@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<title>MD5 Hash Generator</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -14,16 +15,17 @@
 
 <div class="container">
 	
-	<form name="form1" id="form1">
-		Enter string: <input type="text" name="t1" id="a1">     <br><br>
+	<form name="form1" id="form">
+		<div class="form1">
+			Enter string: <input type="text" name="t1" id="a1">     <br><br>
 
-				<input type="button" id="btn" value="Generate" onclick="display()">
+					<input type="button" id="btn" value="Generate" onclick="display()">
 
-				<br><br>
+					<br><br>
 
-		MD5 Hash : <input type="text" name="t2" id="a2" readonly>
-		<input type="button" id="btn2" value="Copy" onclick="copy()">
-		
+			MD5 Hash : <input type="text" name="t2" id="a2" readonly>
+			<input type="button" id="btn2" value="Copy" onclick="copy()">
+		</div>
 
 
 	</form>
